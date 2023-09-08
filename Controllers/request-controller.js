@@ -13,7 +13,7 @@ const dataRequest = async (req, res) => {
     if (requiredUser) {
       requiredUser[0].status_code = 200;
       console.log(requiredUser);
-      res.status(200).json({ requiredUser });
+      res.status(200).send( requiredUser );
     } else {
       return res.send("Invalid Parameters");
     }
