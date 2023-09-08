@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 //My Request Route:
-app.use("/api/2023sept/v1/hngx", requestRoute);
+app.use("/api", requestRoute);
 
 //Declaring my Port:
 const port = process.env.PORT || 1002;
