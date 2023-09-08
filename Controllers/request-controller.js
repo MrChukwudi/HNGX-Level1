@@ -10,7 +10,7 @@ const dataRequest = async (req, res) => {
       (data) => data.slack_name === slack_name && data.track === track
     );
     //When I find a matching Record in my Data, I will add the status_code, and return the Record:
-    if (requiredUser) {
+    if (requiredUser.length > 0) {
       const myUser = requiredUser[0];
       console.log("myUser");
       myUser.status_code = 200;
