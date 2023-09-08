@@ -11,7 +11,8 @@ const dataRequest = async (req, res) => {
     );
     //When I find a matching Record in my Data, I will add the status_code, and return the Record:
     if (requiredUser) {
-      requiredUser.status_code = 200;
+      requiredUser[0].status_code = 200;
+      console.log(requiredUser);
       res.status(200).json({ requiredUser });
     } else {
       return res.send("Invalid Parameters");
