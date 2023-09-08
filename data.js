@@ -32,7 +32,7 @@ console.log(isoString);
 
 const data = [
   {
-    name: "Desire",
+    name: "Mr. Dee",
     slack_name: "example_name",
     current_day: currentDay,
     utc_time: isoString,
