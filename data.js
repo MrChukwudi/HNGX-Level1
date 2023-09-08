@@ -8,27 +8,25 @@ const days = [
   "Saturday",
 ];
 
-const date = new Date()
+const date = new Date();
 
 //Getting the day of the week
 const currentDay = days[date.getDay()];
-
 
 //Getting the Current Time:
 
 // Get the date and time components
 const year = date.getFullYear();
-const month = String(date.getMonth() + 1).padStart(2, '0'); // Month is zero-based, so add 1
-const day = String(date.getDate()).padStart(2, '0');
-const hours = String(date.getHours()).padStart(2, '0');
-const minutes = String(date.getMinutes()).padStart(2, '0');
-const seconds = String(date.getSeconds()).padStart(2, '0');
+const month = String(date.getMonth() + 1).padStart(2, "0"); // Month is zero-based, so add 1
+const day = String(date.getDate()).padStart(2, "0");
+const hours = String(date.getHours()).padStart(2, "0");
+const minutes = String(date.getMinutes()).padStart(2, "0");
+const seconds = String(date.getSeconds()).padStart(2, "0");
 
 // Create the ISO 8601 formatted string
 const isoString = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}Z`;
 
 console.log(isoString);
-
 
 const data = [
   {
