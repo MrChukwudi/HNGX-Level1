@@ -14,14 +14,13 @@ console.log(currentDay);
 
 // Create a string representation of the current time
 const currentTime =
-  (new Date().getHours() +
+  new Date().getHours() +
   ":" +
   new Date().getMinutes() +
   ":" +
-  new Date().getSeconds());
+  new Date().getSeconds();
 
-  console.log(currentTime);
-
+console.log(currentTime);
 
 const data = [
   {
@@ -30,8 +29,8 @@ const data = [
     current_day: currentDay,
     utc_time: currentTime,
     track: "backend",
-    github_file_url: "https://github.com/username/repo/blob/main/file_name.ext",
-    github_repo_url: "",
+    github_file_url: "https://github.com/MrChukwudi/HNGX-Level1",
+    github_repo_url: "https://github.com/MrChukwudi",
     status_code: "",
   },
   {
@@ -40,8 +39,8 @@ const data = [
     current_day: currentDay,
     utc_time: currentTime,
     track: "frontend",
-    github_file_url: "https://github.com/username/repo/blob/main/file_name.ext",
-    github_repo_url: "",
+    github_file_url: "https://github.com/MrChukwudi/HNGX-Level1",
+    github_repo_url: "https://github.com/MrChukwudi",
     status_code: "",
   },
   {
@@ -50,8 +49,8 @@ const data = [
     current_day: currentDay,
     utc_time: currentTime,
     track: "Frontend",
-    github_file_url: "https://github.com/username/repo/blob/main/file_name.ext",
-    github_repo_url: "",
+    github_file_url: "https://github.com/MrChukwudi/HNGX-Level1",
+    github_repo_url: "https://github.com/MrChukwudi",
     status_code: "",
   },
   {
@@ -60,11 +59,10 @@ const data = [
     current_day: currentDay,
     utc_time: currentTime,
     track: "backend",
-    github_file_url: "https://github.com/username/repo/blob/main/file_name.ext",
-    github_repo_url: "",
+    github_file_url: "https://github.com/MrChukwudi/HNGX-Level1",
+    github_repo_url: "https://github.com/MrChukwudi",
     status_code: "",
   },
 ];
-
 
 export default data;
