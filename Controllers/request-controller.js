@@ -11,7 +11,7 @@ const dataRequest = async (req, res) => {
     );
     //When I find a matching Record in my Data, I will add the status_code, and return the Record:
     if (requiredUser.length > 0) {
-      const myUser = requiredUser[0];
+      let myUser = requiredUser[0];
       console.log("myUser");
       myUser.status_code = 200;
       console.log(requiredUser);
