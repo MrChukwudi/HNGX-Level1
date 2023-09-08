@@ -30,51 +30,43 @@ console.log(isoString);
 
 const data = [
   {
-    name: "Mr. Dee",
-    slack_name: "example_name",
+    slack_name: "Mr. Dee",
     current_day: currentDay,
     utc_time: isoString,
     track: "backend",
     github_file_url:
       "https://github.com/MrChukwudi/HNGX-Level1/blob/master/index.js",
     github_repo_url: "https://github.com/MrChukwudi/HNGX-Level1",
-
     status_code: "",
   },
   {
-    name: "Oladokun",
-    slack_name: "example_name",
+    slack_name: "Oladokun",
     current_day: currentDay,
     utc_time: isoString,
     track: "frontend",
     github_file_url:
       "https://github.com/MrChukwudi/HNGX-Level1/blob/master/index.js",
     github_repo_url: "https://github.com/MrChukwudi/HNGX-Level1",
-
     status_code: "",
   },
   {
-    name: "Musa",
-    slack_name: "example_name",
+    slack_name: "Musa",
     current_day: currentDay,
     utc_time: isoString,
     track: "Frontend",
     github_file_url:
       "https://github.com/MrChukwudi/HNGX-Level1/blob/master/index.js",
     github_repo_url: "https://github.com/MrChukwudi/HNGX-Level1",
-
     status_code: "",
   },
   {
-    name: "Musa",
-    slack_name: "example_name",
+    slack_name: "Musa",
     current_day: currentDay,
     utc_time: isoString,
     track: "backend",
     github_file_url:
       "https://github.com/MrChukwudi/HNGX-Level1/blob/master/index.js",
     github_repo_url: "https://github.com/MrChukwudi/HNGX-Level1",
-
     status_code: "",
   },
 ];

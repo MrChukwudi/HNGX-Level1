@@ -7,7 +7,7 @@ const dataRequest = async (req, res) => {
   try {
     //Filtering my Data to find the record that matches the request parameters:
     const requiredUser = await myData.filter(
-      (data) => data.name === name && data.track === track
+      (data) => data.slack_name === name && data.track === track
     );
     //When I find a matching Record in my Data, I will add the status_code, and return the Record:
     if (requiredUser) {
